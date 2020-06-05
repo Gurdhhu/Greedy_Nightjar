@@ -15,8 +15,8 @@ build_exe_options = {"packages":["pygame", "random"],
                            "include_files":files_to_include}
 
 setup(
-    name="Greedy Nightjar",
-    version="1.0",
+    name="Greedy_Nightjar",
+    version="2.0",
     description="A simple game: Greedy Nightjar is eating moths and escaping from the Owl's claws.",
     options={"build_exe": build_exe_options},
     executables=executables)
